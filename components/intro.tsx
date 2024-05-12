@@ -53,7 +53,7 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hi, I'm Dipit Vasdev.</span> I am an aspiring <span className="font-bold">Data Scientist, Research Enthusiast, and Software Developer</span> set to graduate from <span className="underline">New York University</span> in May 2024 with a degree in <span className="font-bold">Computer Engineering</span>. I excel in <span className="font-bold">Python, JavaScript, React, and TensorFlow</span> to create innovative digital solutions.
+                <span className="font-bold">Hi, I{"'"}m Dipit Vasdev.</span> I am an aspiring <span className="font-bold">Data Scientist, Research Enthusiast, and Software Developer</span> set to graduate from <span className="underline">New York University</span> in May 2024 with a degree in <span className="font-bold">Computer Engineering</span>. I excel in <span className="font-bold">Python, JavaScript, React, and TensorFlow</span> to create innovative digital solutions.
 
             </motion.h1>
 
