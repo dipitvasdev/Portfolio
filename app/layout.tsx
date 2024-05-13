@@ -14,8 +14,8 @@ const fira_sans = Fira_Sans({
 
 
 export const metadata = {
-  title: 'Dipit V | Portfolio',
-  description: 'Dipit is a master of science student at NYU',
+  title: 'Dipit Vasdev - M.Sc. @ New York University',
+  description: 'Dipit Vasdev is a talented software engineer and a Master’s student at New York University, specializing in Computer Engineering with a GPA of 3.9. His skills in Python, JavaScript, React, and AWS Cloud solutions highlight his technical proficiency. Dipit has contributed to significant projects, such as developing RESTful API endpoints and creating AI-driven solutions. He is also recognized as a Top Data Science Voice on LinkedIn and holds a $18,000 Merit-Based Scholarship.',
 }
 
 export default function RootLayout({
