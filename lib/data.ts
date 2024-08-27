@@ -1,11 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import spoilerDetectionImg from "@/public/spoilerDetection.webp"
-import rockPaperScissorImg from "@/public/rockPaper.png"
-import musicDataAnalyticsImg from "@/public/musicData.webp"
-
+import aiGithub from "@/public/github.png";
+import nbaPlayoffs from "@/public/nba.png";
+import projectCabinet from "@/public/project-cabinet.png";
 
 export const links = [
   {
@@ -36,12 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer Intern @ S&P Global",
-    location: "Gurgaon, India",
+    title: "Software Engineer @ Hack for LA",
+    location: "California (Remote)",
     description:
-      "Reduced infrastructure costs by 23% by leveraging AWS Lambda and CloudWatch APIs to streamline data extraction,",
-    icon: React.createElement(FaReact),
-    date: "May - July 2021",
+      "Contributed to the development of the TDM Calculator using React and Node.js, streamlining Los Angeles' Transportation Demand Management (TDM) regulations.",
+    icon: React.createElement(CgWorkAlt),
+    date: "August 2024 - Present",
+  },
+  {
+    title: "Research Assistant @ DICE Lab - NYU Tandon School of Engineering",
+    location: "New York, NY",
+    description:
+      "Led a project on vision-language models for radiology report generation using Python, contributing to a vision transformer for medical image understanding, and lead-authored a paper with top cancer researchers at MSK.",
+    icon: React.createElement(CgWorkAlt),
+    date: "December 2023 - May 2024",
+  },
+  {
+    title: "Graduate Course Assistant @ NYU",
+    location: "New York, NY",
+    description:
+      "Collaborated with other TAs to facilitate all aspects of graduate-level Deep Learning course for 100+ students, including grading, assignments, and doubt resolution.",
+    icon: React.createElement(LuGraduationCap),
+    date: "September 2023 - May 2024",
   },
   {
     title: "Software Engineer Intern @ Alten Capital",
@@ -52,39 +66,37 @@ export const experiencesData = [
     date: "May - August 2021",
   },
   {
-    title: "Graduate Course Assistant @ NYU",
-    location: "New York, NY",
+    title: "Software Engineer Intern @ S&P Global",
+    location: "Gurgaon, India",
     description:
-      "Collaborated with other TAs to facilitate all aspects of graduate-level Deep Learning course for 100+ students, including grading, assignments, and doubt resolution.",
-    icon: React.createElement(LuGraduationCap),
-    date: "September 2023 - Present",
-  }
-
+      "Reduced infrastructure costs by 23% by leveraging AWS Lambda and CloudWatch APIs to streamline data extraction,",
+    icon: React.createElement(CgWorkAlt),
+    date: "May - July 2021",
+  },
 ] as const;
-
 
 export const projectsData = [
   {
-    title: "Spoiler Detection in Movie Reviews Using Modern DL Architectures",
+    title: "Project Cabinet: My Coding Projects Showcase",
     description:
-      "Developed and implemented deep learning techniques for spoiler detection in movie reviews achieving 78.49% accuracy with Distil BERT. Conducted thorough data pre-processing on a 1 GB dataset for improved model performance.",
-    tags: ["Python", "Flask", "NLP", "Distil BERT"],
-    imageUrl: spoilerDetectionImg,
+      "Project Cabinet is an interactive portfolio showcasing my coding projects through visually engaging cards. Featuring responsive design, advanced filtering, and sorting, highlighting my technical skills and project expertise in a user-friendly format. Visit: https://project-cabinet.vercel.app/",
+    tags: ["React", "Tailwind CSS", "Next.js", "Typescript", "Javascript"],
+    imageUrl: projectCabinet,
   },
   {
-    title: "Multiplayer Rock Paper Scissor Webcam Game",
+    title: "Predictive Analysis and Insights on NBA Playoff Outcomes",
     description:
-      "Developed a live multiplayer game using OpenCV and TensorFlow with a validation accuracy of 98%. Utilized advanced computer vision techniques and a customized MobileNetV2 model for players' hand gesture detection.",
-    tags: ["Python", "OpenCV", "TensorFlow", "MobileNetV2"],
-    imageUrl: rockPaperScissorImg,
+      "Conducted data preprocessing and analysis on NBA datasets (2014-2023) using R (tidyverse, dplyr), generating visualizations with ggplot2 and plotly. Developed logistic and linear regression models to predict NBA playoff outcomes, achieving 75% accuracy in forecasting series winners and the number of games.",
+    imageUrl: nbaPlayoffs,
+    tags: ["R", "tidyverse", "ggplot2", "caret", "plotly"],
   },
   {
-    title: "NYU Data Science Capstone: Exploring Music Data Analytics",
+    title: "AI-Driven GitHub Issue Classification System",
     description:
-      "Led a music data analysis project with advanced statistical and machine learning models. Used statistical tests and PCA for data analysis, and implemented collaborative filtering with ALS for music recommendation.",
-    tags: ["Pandas", "SciPy", "Python", "Scikit-learn"],
-    imageUrl: musicDataAnalyticsImg,
-  }
+      "Built a machine learning model with 85% accuracy for classifying GitHub issues using Logistic Regression and PySpark on Databricks (GCP Compute). Developed a React-based frontend for a user-friendly interface, enabling real-time issue classification and predictions.",
+    tags: ["PySpark", "MLlib", "Databricks", "GCP"],
+    imageUrl: aiGithub,
+  },
 ] as const;
 
 export const skillsData = [
@@ -121,5 +133,5 @@ export const skillsData = [
   "Generative AI",
   "Hadoop",
   "Spark",
-  "Dash"
+  "Dash",
 ] as const;
