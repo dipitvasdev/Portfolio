@@ -34,16 +34,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer @ Hack for LA",
+    title: "Software Engineer @ Google",
+    location: "San Francisco Bay Area",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "December 2024 - Present",
+  },
+  {
+    title: "Software Engineer Volunteer (Backend) @ Hack for LA",
     location: "California (Remote)",
     description:
-      "Contributed to the development of the TDM Calculator using React and Node.js, streamlining Los Angeles' Transportation Demand Management (TDM) regulations.",
+      "Contributed to the TDM Calculator using Node.js, Express, SQL Server, and related backend technologies to improve project functionality and access to Los Angeles TDM regulations.",
     icon: React.createElement(CgWorkAlt),
-    date: "August 2024 - Present",
+    date: "August 2024 - December 2024",
   },
   {
     title: "Research Assistant @ DICE Lab - NYU Tandon School of Engineering",
-    location: "New York, NY",
+    location: "San Francisco Bay Area",
     description:
       "Led a project on vision-language models for radiology report generation using Python, contributing to a vision transformer for medical image understanding, and lead-authored a paper with top cancer researchers at MSK.",
     icon: React.createElement(CgWorkAlt),
@@ -51,7 +58,7 @@ export const experiencesData = [
   },
   {
     title: "Graduate Course Assistant @ NYU",
-    location: "New York, NY",
+    location: "San Francisco Bay Area",
     description:
       "Collaborated with other TAs to facilitate all aspects of graduate-level Deep Learning course for 100+ students, including grading, assignments, and doubt resolution.",
     icon: React.createElement(LuGraduationCap),
@@ -59,7 +66,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer Intern @ Alten Capital",
-    location: "New York, NY",
+    location: "San Francisco Bay Area",
     description:
       "Developed and deployed highly scalable backend systems using leading technologies, enabling CRUD operations across a variety of data models, leading to a 17% reduction in redundant code.",
     icon: React.createElement(CgWorkAlt),

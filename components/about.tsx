@@ -18,11 +18,11 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className='mb-3'>
-        After earning a Bachelor{"'"}s degree in <span className="font-medium">Computer Science and Engineering</span> from Guru Gobind Singh Indraprastha University, my fascination with neural networks drove me to pursue a Master{"'"}s in <span className="font-medium">Computer Engineering</span> at New York University. <span className="italic">What excites me most about technology</span> is the challenge of unraveling complex problems. I <span className="underline">thrive</span> on finding innovative solutions in the fields of <span className="font-medium">data science, machine learning, and generative AI</span>. My technical toolkit includes <span className="font-medium">Python, Java, TensorFlow, and React</span>, alongside advanced competencies in <span className="font-medium">full-stack development</span>. I am continuously honing these skills through dynamic projects and professional engagements. Presently, I am eager to secure a <span className="font-medium">full-time role</span> where I can contribute to impactful tech solutions.
+        I am a software engineer with experience in backend development, machine learning, data analysis, and cloud technologies. I earned my M.S. in Computer Engineering from New York University in May 2024 and currently work at Google.
       </p>
 
       <p>
-        <span className="italic">Beyond the screen</span>, I balance my tech pursuits with personal interests. I am a <span className="font-medium">chess enthusiast</span>, relishing the strategic depth of each game. I am currently absorbed in <span className="font-medium">{'"'}Quiet: The Power of Introverts in a World That Can{"'"}t Stop Talking{'"'}</span> by Susan Cain, which has given me profound insights into personality dynamics. As a gamer, I find relaxation in virtual worlds, and I explore culinary arts as a <span className="font-medium">cooking aficionado</span>, experimenting with new recipes.
+        I enjoy building reliable software systems and applying data-driven methods to practical problems. Outside technology, I enjoy chess, cinema, gaming, reading, and exploring new places.
       </p>
     </motion.section>
   )
